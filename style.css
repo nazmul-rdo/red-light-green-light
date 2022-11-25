@@ -1,0 +1,32 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+div#continer {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box {
+    height: 25%;
+    width: 25%;
+    border: 1px solid gray;
+    cursor: pointer;
+    transition: all .3s ease;
+    font-size: 80px;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.green-light {
+    background: green;
+}
+
+.red-light {
+    background: red;
+}
